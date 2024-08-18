@@ -1,0 +1,24 @@
+.single-char {
+    margin-top: 50px;
+    &__img {
+        max-width: 293px;
+        margin-right: 50px;
+    }
+    &__descr {
+        display: inline-block;
+        text-align: start;
+        vertical-align: top;
+
+        max-width: 550px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000;
+        &-title {
+            font-weight: 700;
+            font-size: 22px;
+            color: #000;
+            text-transform: capitalize;
+            margin-bottom: 28px;
+        }
+    }
+}
